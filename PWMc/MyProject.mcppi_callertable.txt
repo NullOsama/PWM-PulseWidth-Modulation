@@ -1,0 +1,7 @@
+main
+	PWM1_Init
+	PWM1_Set_Duty
+		Mul_16X16_U
+	PWM1_Start
+	Div_16x16_S
+		Div_16x16_S_L

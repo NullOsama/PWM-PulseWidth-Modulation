@@ -1,0 +1,20 @@
+main
+	PWM1_Init
+	PWM1_Set_Duty
+		Mul_16X16_U
+	PWM1_Start
+	byte2double
+		NRM4032
+			SETFUN32
+			FIXSIGN32
+			SETFOV32
+			RES032
+	Add_32x32_FP
+		NRM4032
+			SETFUN32
+			FIXSIGN32
+			SETFOV32
+			RES032
+		SETFOV32
+	double2byte
+		SETIOV3224

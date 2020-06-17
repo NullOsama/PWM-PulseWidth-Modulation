@@ -1,0 +1,20 @@
+main
+	PWM1_Init
+	PWM1_Set_Duty
+		Mul_16X16_U
+	PWM1_Start
+	PWM2_Init
+	PWM2_Set_Duty
+		Mul_16X16_U
+	PWM2_Start
+	word2double
+		NRM3232
+			RES032
+			SETFUN32
+			FIXSIGN32
+	Mul_32x32_FP
+		RES032
+		SETFOV32
+		SETFUN32
+	double2word
+		SETIOV3224
