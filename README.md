@@ -15,3 +15,4 @@ An open-loop speed control system for a DC motor which is controlled by a PWM ge
         clock-wise direction.
         3. As the user moved the potentiometer to the lift (<50%), the motor speed increased in
         counter clock-wise direction.
+**All used circuits, flowcharts and calculations are provided.**
