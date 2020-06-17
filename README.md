@@ -1,5 +1,5 @@
 # PWM-PulseWidth-Modulation
-An open-loop speed control system for a DC motor which is controlled by a PWM generated signal.
+An open-loop speed control system for a DC motor which is controlled by a **PWM** generated signal.
 
 ## Requiements:
   **A.** Generate a PWM signal (freq. = 5000 Hz) with an increasing duty cycle, such that the duty cycle 
